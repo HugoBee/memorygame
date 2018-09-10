@@ -1,19 +1,7 @@
-/*
- * Create a list that holds all of your cards
- */
-
-
-/*
- * Display the cards on the page
- *   - shuffle the list of cards using the provided "shuffle" method below
- *   - loop through each card and create its HTML
- *   - add each card's HTML to the page
- */
-
-
+/* Global Variables*/
 /* Number of moves in a global variable */
 let movesnumber = 0;
-/* Clock global variables */
+/* Clock global variable */
 let clockOff = true;
 let time = 0;
 let clockId;
@@ -32,6 +20,7 @@ scoring(); // 2 stars
 
 modalstats();
 modaltoggle(); */
+
 
 // Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
@@ -65,7 +54,6 @@ shufflethedeck();
 
 
 /* Function to toggle the cards */
-
 function Cardtoggle(card) {
   card.classList.toggle('open'); /*.open class for non-matching cards */
   card.classList.toggle('show'); /*.show class for matching cards */
@@ -129,7 +117,6 @@ function gameover() {
   modalstats();
   modaltoggle();
   resetcards();
-
 }
 
 
@@ -198,7 +185,6 @@ function displaytime() {
 /* Stopping the clock function */
 function stopclock() {
   clearInterval(clockId);
-
 }
 
 
@@ -207,6 +193,7 @@ function modaltoggle() {
   const modal = document.querySelector('.modal__background');
   modal.classList.toggle('hide');
 }
+
 
 /* function that writes the stats to the Modal*/
 function modalstats() {
@@ -257,11 +244,13 @@ function gamereset () {
       shufflethedeck();
 }
 
+
 /* Function for replaying the game */
 function replaygame() {
   gamereset();
   modaltoggle();
 }
+
 
 /* Function for resetting the clock counter */
 function resettimeandclock() {
