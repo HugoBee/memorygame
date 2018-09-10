@@ -12,7 +12,7 @@ To run the game, [click this link](https://hugobee.github.io/memorygame/). Or, y
 ## Instructions
 1. Click on any two cards in the grid to view their symbols.
 2. Try to remember the symbols!
-3. If the symbols match, the cards will stay open. Otherwise, they will close after 1.5 seconds.
+3. If the symbols match, the cards will stay open. Otherwise, they will close after a couple of seconds.
 4. When all cards are matched, you win the game!
 Hint: For a better score try to complete the game in as few moves as possible!
 
