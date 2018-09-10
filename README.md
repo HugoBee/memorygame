@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Resources](#Resources)
 
 ## To Run the Game
 
@@ -18,7 +18,7 @@ Hint: For a better score try to complete the game in as few moves as possible!
 
 ## Resources
 
-Udacity's starter code
-JQuery
-Bootstrap for the modal plugin
-Shuffle function
+* Udacity's starter code
+* JQuery
+* Bootstrap for the modal plugin
+* Shuffle function
